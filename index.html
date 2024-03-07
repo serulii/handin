@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <!-- you found a secret :) -->
+  <head>
+    <link rel="stylesheet" href="styles4.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/stn7ubm.css" />
+  </head>
+  <body>
+    <section id="home">
+      <div id="textrow">
+        <h1 id="title-text">Responsive Redesign</h1>
+        <h3 id="subtitle-text">CS1300</h3>
+      </div>
+    </section>
+
+    <section id="showoff">
+      <div id="showoff-container">
+        <img
+          id="final-desktop"
+          src="img/final_desktop.png"
+          alt="final product image"
+        />
+      </div>
+    </section>
+
+    <section id="inspiration">
+      <h2>Inspiration</h2>
+      <div id="about-container">
+        <div id="about-text">
+          <p>
+            For a class project, I chose to redesign the
+            <a href="https://www.bellevuefryingfish.com/menu"
+              >menu of one of my favorite restaurants.</a
+            >
+            While the food looks delicious, it's difficult to find important
+            information and the website is visually cluttered & confusing with
+            lots of overlapping elements.
+          </p>
+          <p>
+            To start, I identified several key usability & accessibility issues
+            with the original website:
+          </p>
+          <ul>
+            <li>
+              Slideshow of food on the top of the page may be unintuitive or
+              confusing
+            </li>
+            <li>
+              Overlapping text, sections, and images makes the website difficult
+              to read and navigate
+            </li>
+            <li>
+              The background clashes with the images of food in the menu,
+              drawing attention away from the menu
+            </li>
+            <li>Lack of a menu bar on mobile</li>
+            <li>Misaligned menu items and random empty space</li>
+          </ul>
+          <p>
+            Evaluating the website with WAVE revealed a significant number of
+            contrast errors and alerts, as well as a broken link. Notably, the
+            WAVE report showed that much of the alt text on the page was
+            uninformative (e.g. “listitem”, “list”,
+            “anchor-label_dataItem-jywe6amv”), which makes the website
+            inaccessible to users who use screen readers.
+          </p>
+        </div>
+        <div id="about-image">
+          <img id="about-me-image" src="img/old_desktop.png" />
+          <img id="mobile-image" src="img/old_mobile.png" alt="" />
+          <img id="mobile-image" src="img/old_mobile_2.png" alt="" />
+          <img id="mobile-image" src="img/old_mobile_3.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- <section id="projects">
+      <h2>FEATURED PROJECTS</h2>
+      <p>Under construction!</p>
+    </section> -->
+    <section id="sketches">
+      <h2>Sketches & Lo-fi</h2>
+
+      <div id="about-container" style="flex-direction: column">
+        <div id="about-image">
+          <img
+            style="width: 500px"
+            id="about-me-image"
+            src="img/speed_sketches.png"
+          />
+          <img style="width: 500px" src="img/final_sketch.png" alt="" />
+        </div>
+        <div id="about-text">
+          <p>
+            Once I identified the key problems with the original website, I made
+            a series of speed sketches culminating in a final sketch. My goal
+            was to simplify the structure of the menu, so I ditched the
+            slideshow on the original website and used a simple grid for the
+            menu.
+          </p>
+
+          <p>
+            I then created and annotated a lo-fi mockup of the revised website
+            with Figma!
+          </p>
+        </div>
+        <div id="about-image">
+          <img style="width: 800px" src="img/lofi.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="styleguide">
+      <h2>Style Guide & Hi-fi</h2>
+      <div id="about-container" style="flex-direction: column">
+        <div id="flexbox">
+          <img style="width: 500px" src="img/hifi_desktop_1.png" alt="" />
+          <img style="width: 500px" src="img/hifi_desktop_2.png" alt="" />
+          <img
+            style="width: 500px; object-fit: cover"
+            src="img/hifi_tablet.png"
+            alt=""
+          />
+          <img style="width: 160px" src="img/hifi_phone.png" alt="" />
+          <img style="width: 400px" src="img/styleguide.png" alt="" />
+        </div>
+        <div id="about-text">
+          <p>
+            In the hi-fi stage, I ended up changing a couple of things! Firstly,
+            I decided that having an image as the background of the header was
+            too cluttered since I wanted the focus to be on the menu items, so I
+            removed it. I additionally made the reserve button more prominent.
+          </p>
+          <p>
+            For the overall style guide, I used the logo of the restaurant as a
+            reference and matched the style with modern, sleek-looking fonts and
+            colors.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="final">
+      <h2>Final Redesign</h2>
+      <div id="about-me-image" style="padding-left: 20%; padding-bottom: 50px">
+        <img style="width: 1000px" src="img/final_1.png" alt="" />
+      </div>
+      <div id="about-container">
+        <div style="width: 300px">
+          <img style="width: 200px" src="img/final_mobile.png" alt="" />
+        </div>
+        <div id="about-text">
+          <p>Nice! The website is looking much cleaner! :)</p>
+          <p>
+            Looking back, if I had more time, these are some things I would
+            extend and improve upon:
+          </p>
+          <ul>
+            <li>
+              Implementing sorting the menu by category! It's currently not
+              interactive.
+            </li>
+            <li>
+              Adding more personality to the website--while it's readable and
+              easier to understand, it could use an aesthetics touch-up!
+            </li>
+            <li>
+              Adding some of the extra features from the original website, such
+              as a way of indicating if a dish is spicy and the "log in" option.
+            </li>
+          </ul>
+          <p>
+            My redesign can be found at
+            <a href="https://sherry-zhang.com/fryingfish/">this link!</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+
+<!-- TODO: css transitions, add port content -->
